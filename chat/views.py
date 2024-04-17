@@ -5,7 +5,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 import google.generativeai as genai
 
 # add here to your generated API key
-genai.configure(api_key="AIzaSyAKTLCGoMCXlswIpqS3JrmwcOzhAXI08uw")
+genai.configure(api_key="")
 # https://aistudio.google.com/app/apikey
 
 @login_required
